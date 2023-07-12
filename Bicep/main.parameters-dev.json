@@ -1,0 +1,25 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "storageAccountName": {
+        "value": "postoragesadev"
+      },
+      "applicationInsightsName": {
+        "value": "poaidev"
+      },
+      "functionAppName": {
+        "value": "po-out-bound-fa-dev"
+      },
+      "vaultname": {
+        "value": "po-vault-dev"
+      },
+      "hostingPlanName": {
+        "value": "po-asp-dev"
+      }
+
+      
+    }
+
+    
+  }
